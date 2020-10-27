@@ -19,6 +19,10 @@
   margin-top: -30px;
 }
 
+.skills__icons div {
+  margin-top: 30px;
+}
+
 .skills > p {
   margin-top: 2rem;
   margin-bottom: 0.6rem;
