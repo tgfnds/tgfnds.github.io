@@ -84,7 +84,6 @@ const Skills = () => {
           name="python"
         />
       </div>
-      {/* <p>.NET, Django</p> */}
     </div>
   );
 };
