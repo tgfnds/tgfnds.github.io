@@ -16,3 +16,4 @@ deploy:
   local_dir: out # Directory to push to the gh-pages branch
   on:
     branch: master # Only deploy when the build is on master branch
+  fqdn: tgfnds.dev

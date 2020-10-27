@@ -9,9 +9,7 @@ const SvgIcon = ({ path, height, name, bgColor, borderRadius, animated }) => {
         bgColor ? { backgroundColor: bgColor, borderRadius: borderRadius } : {}
       }
     >
-      <object data={path} type="image/svg+xml" height={height}>
-        {name}
-      </object>
+      <img src={path} height={height} />
       <div className={styles.icon__tooltip}>{name.toUpperCase()}</div>
     </div>
   );
