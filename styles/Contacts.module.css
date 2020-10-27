@@ -20,6 +20,7 @@
 
 .contact:hover {
   transform: scale(1.1);
+  backface-visibility: hidden;
   transition: linear 0.2s;
 }
 

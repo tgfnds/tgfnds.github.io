@@ -13,6 +13,7 @@ export default function Home() {
       <Head>
         <title>Tiago Fernandes</title>
         <link rel="icon" href="/favicon.ico" />
+        <link href="https://fonts.googleapis.com/css2?family=Proza+Libre&family=Roboto+Slab&display=swap" rel="stylesheet" />
       </Head>
 
       <main>
