@@ -22,7 +22,8 @@ export function SingleProject({fields}: Props) {
             <div className="m-3 flex flex-col sm:flex-row gap-2 bg-indigo-200 dark:bg-slate-900 rounded-xl">
                 <div className="flex sm:w-1/2">
                     <Image className="object-cover object-top rounded-t-xl sm:rounded-l-xl sm:rounded-tr-none"
-                           src={`https:${imageUrl}`} alt={imageAlt} width={imageWidth} height={imageHeight}/>
+                           src={`https:${imageUrl}`} alt={imageAlt} width={imageWidth} height={imageHeight}
+                           layout="intrinsic"/>
                 </div>
                 <div className="sm:w-1/2 p-4 sm:mt-1 mb-3 flex flex-col gap-3">
                     <a href={`#${slug}`} className="self-start">

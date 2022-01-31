@@ -2,7 +2,6 @@
 const nextConfig = {
     reactStrictMode: true,
     images: {
-        loader: "cloudinary",
         domains: ["images.ctfassets.net"]
     },
     env: {
