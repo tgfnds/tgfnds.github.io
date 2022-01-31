@@ -4,7 +4,7 @@
   "scripts": {
     "codegen": "contentful-typescript-codegen --output schema/generated/contentful.d.ts",
     "dev": "NODE_OPTIONS='--inspect' next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
