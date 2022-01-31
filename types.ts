@@ -1,5 +1,5 @@
 import {Entry} from "contentful";
-import {IProjectFields} from "../../schema/generated/contentful";
+import {IProjectFields} from "./schema/generated/contentful";
 
 export type CMSError = {
     message: string;

@@ -2,7 +2,7 @@ import type {NextApiRequest, NextApiResponse} from "next";
 import {createClient} from "contentful";
 import {IProjectFields} from "../../schema/generated/contentful";
 import {QueryOptions} from "contentful-management";
-import {ProjectsResponse} from "./types";
+import {ProjectsResponse} from "../../types";
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse<ProjectsResponse>) {
     try {
