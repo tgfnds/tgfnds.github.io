@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    @apply text-slate-700 dark:text-slate-200;
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+@layer components {
+    .upright {
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+    }
+}

@@ -1,0 +1,23 @@
+import TimelineSeparator from "./TimelineSeparator";
+
+type Props = {
+    name: string;
+    period: string;
+    place?: string;
+};
+
+export default function TimelineEvent({name, period, place}: Props) {
+    return (
+        <>
+            <div className="w-full flex items-start justify-center gap-5">
+                <span className="flex-[1] text-amber-600/75 dark:text-amber-400/90 text-sm text-right font-bold mt-[0.05rem]">{period}</span>
+                <span className="text-7xl text-slate-500 dark:text-slate-500 leading-4 select-none">·</span>
+                <div className="flex-[2] flex flex-col">
+                    <span>{name}</span>
+                    {place && <span className="text-slate-500 dark:text-slate-400 text-sm">@ {place}</span>}
+                </div>
+            </div>
+            <TimelineSeparator/>
+        </>
+    )
+}
