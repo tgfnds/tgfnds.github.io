@@ -1,11 +1,26 @@
+<!-- Markdown link & img definitions -->
+
+[build-image]: https://img.shields.io/github/workflow/status/tgfnds/tgfnds.github.io/Build%20and%20Deploy?style=flat-square
+[build-url]: https://github.com/tgfnds/tgfnds.github.io/actions/workflows/build-and-deploy.yml
+[website-image]: https://img.shields.io/website?style=flat-square&url=https%3A%2F%2Ftgfnds.dev
+[website-url]: https://tgfnds.dev
+[linkedin]: https://img.shields.io/badge/LinkedIn-blue?style=flat-square&logo=linkedin&labelColor=blue
+[linkedin-url]: https://www.google.com
+
 <div id="top"></div>
 
-![build-status]
-[![license][license]][license-url]
+<div align="center">
+  
+[![Build Status][build-image]][build-url]
+[![Website Status][website-image]][website-url]
+[![linkedin][linkedin]][linkedin-url]
+  
+</div>
+
 
 
 <br />
-<div style="text-align: center">
+<div align="center">
 <h3>Tiago's Personal Website</h3>
 
   <p>
@@ -22,7 +37,6 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -34,8 +48,6 @@ This is my personal website where I'll share some of my personal projects as wel
 
 Might also share some of my hobbies or something else that I find interesting and makes sense to share here.
 
-<p align="end">(<a href="#top">back to top</a>)</p>
-
 ### Built With
 
 * [Next.js](https://nextjs.org/)
@@ -44,21 +56,11 @@ Might also share some of my hobbies or something else that I find interesting an
 * [Contentful](https://www.contentful.com/)
 * [Zustand](https://github.com/pmndrs/zustand)
 
-<p align="end">(<a href="#top">back to top</a>)</p>
-
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-<p align="end">(<a href="#top">back to top</a>)</p>
-
 ## Contact
 
 Tiago Fernandes - tgfnds23@gmail.com
 
 [Project Website](https://tgdnds.dev)
-
-<p align="end">(<a href="#top">back to top</a>)</p>
 
 ## Acknowledgments
 
@@ -67,9 +69,3 @@ Tiago Fernandes - tgfnds23@gmail.com
 * [React Icons](https://react-icons.github.io/react-icons/search)
 
 <p align="end">(<a href="#top">back to top</a>)</p>
-
-<!-- Markdown link & img definitions -->
-
-[build-status]: https://img.shields.io/github/workflow/status/tgfnds/tgfnds.github.io/Build%20and%20Deploy?style=flat-square
-[license]: https://img.shields.io/github/license/tgfnds/tgfnds.github.io
-[license-url]: https://github.com/tgfnds/tgfnds.github.io/blob/main/LICENSE
