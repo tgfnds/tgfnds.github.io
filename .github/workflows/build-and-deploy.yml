@@ -14,12 +14,10 @@ jobs:
 
       - name: Install and Build
         run: | 
-          npm install
           npm run build
-          npm run export
+          touch out/.nojekyll
         env:
           DEPLOY_TARGET: gh-pages
-      - run: touch out/.nojekyll
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.2.3
