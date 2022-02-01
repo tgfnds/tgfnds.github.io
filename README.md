@@ -44,13 +44,13 @@ Might also share some of my hobbies or something else that I find interesting an
 * [Contentful](https://www.contentful.com/)
 * [Zustand](https://github.com/pmndrs/zustand)
 
-<p style="text-align: end">(<a href="#top">back to top</a>)</p>
+<p align="end">(<a href="#top">back to top</a>)</p>
 
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-<p style="text-align: end">(<a href="#top">back to top</a>)</p>
+<p align="end">(<a href="#top">back to top</a>)</p>
 
 ## Contact
 
@@ -58,7 +58,7 @@ Tiago Fernandes - tgfnds23@gmail.com
 
 [Project Website](https://tgdnds.dev)
 
-<p style="text-align: end">(<a href="#top">back to top</a>)</p>
+<p align="end">(<a href="#top">back to top</a>)</p>
 
 ## Acknowledgments
 
@@ -66,7 +66,7 @@ Tiago Fernandes - tgfnds23@gmail.com
 * [GitHub Pages](https://pages.github.com)
 * [React Icons](https://react-icons.github.io/react-icons/search)
 
-<p style="text-align: end">(<a href="#top">back to top</a>)</p>
+<p align="end">(<a href="#top">back to top</a>)</p>
 
 <!-- Markdown link & img definitions -->
 
