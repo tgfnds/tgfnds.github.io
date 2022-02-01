@@ -1,24 +1,18 @@
 <div id="top"></div>
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-![Build Status][npm-image]
-[![Downloads Stats][npm-downloads]][npm-url]
+![build-status]
+[![license][license]][license-url]
 
 
-<!-- PROJECT LOGO -->
 <br />
 <div style="text-align: center">
 <h3>Tiago's Personal Website</h3>
 
   <p>
     Personal website to show off some of my projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
   </p>
 </div>
 
-<!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -34,27 +28,15 @@
   </ol>
 </details>
 
-<!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+This is my personal website where I'll share some of my personal projects as well as my career path.
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+Might also share some of my hobbies or something else that I find interesting and makes sense to share here.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
-
-<p style="text-align: end">(<a href="#top">back to top</a>)</p>
+<p align="end">(<a href="#top">back to top</a>)</p>
 
 ### Built With
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
 * [Next.js](https://nextjs.org/)
 * [TypeScript](https://www.typescriptlang.org/)
@@ -64,25 +46,20 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 <p style="text-align: end">(<a href="#top">back to top</a>)</p>
 
-<!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. See `LICENSE` for more information.
 
 <p style="text-align: end">(<a href="#top">back to top</a>)</p>
 
-
-
-<!-- CONTACT -->
 ## Contact
 
-Tiago Fernandes - email@example.com
+Tiago Fernandes - tgfnds23@gmail.com
 
-Project Link: [https://github.com/tgfnds/tgfnds.github.io](https://github.com/tgfnds/tgfnds.github.io)
+[Project Website](https://tgdnds.dev)
 
 <p style="text-align: end">(<a href="#top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
 * [Img Shields](https://shields.io)
@@ -92,8 +69,7 @@ Project Link: [https://github.com/tgfnds/tgfnds.github.io](https://github.com/tg
 <p style="text-align: end">(<a href="#top">back to top</a>)</p>
 
 <!-- Markdown link & img definitions -->
-[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/datadog-metrics
-[npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
+
+[build-status]: https://img.shields.io/github/workflow/status/tgfnds/tgfnds.github.io/Build%20and%20Deploy?style=flat-square
+[license]: https://img.shields.io/github/license/tgfnds/tgfnds.github.io
+[license-url]: https://github.com/tgfnds/tgfnds.github.io/blob/main/LICENSE
