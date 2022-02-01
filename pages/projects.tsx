@@ -1,8 +1,9 @@
 import type {GetStaticProps} from "next";
 import {ProjectList} from "../components/projects/ProjectList";
 import Head from "next/head";
-import {Entry} from "contentful";
+import {createClient, Entry} from "contentful";
 import {IProjectFields} from "../schema/generated/contentful";
+import {QueryOptions} from "contentful-management";
 
 interface Props {
     projects: Entry<IProjectFields>[];
@@ -11,11 +12,22 @@ interface Props {
 
 export const getStaticProps: GetStaticProps<Props> = async () => {
     try {
-        const baseUrl = process.env.BASE_URL;
+        const spaceId = process.env.CONTENTFUL_SPACE_ID;
+        const token = process.env.CONTENTFUL_ACCESS_TOKEN;
 
-        const res = await fetch(`${baseUrl ?? "http://localhost:3000"}/api/projects`);
+        if (!spaceId) throw new Error("Missing CONTENTFUL_SPACE_ID environment variable.");
+        if (!token) throw new Error("Missing CONTENTFUL_ACCESS_TOKEN environment variable.");
 
-        const projects: Entry<IProjectFields>[] = await res.json();
+        const client = createClient({
+            space: spaceId,
+            accessToken: token
+        });
+
+        const entries = await client.getEntries<IProjectFields>({
+            content_type: "project"
+        } as QueryOptions);
+
+        const projects: Entry<IProjectFields>[] = entries.items;
 
         return {
             props: {
