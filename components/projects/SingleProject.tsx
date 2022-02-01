@@ -10,6 +10,8 @@ type Props = {
     fields: IProjectFields;
 };
 
+const customLoader = ({src}: { src: string }) => `${src}`;
+
 export function SingleProject({fields}: Props) {
     const {name, description, slug, tags, image, url, repo} = fields;
     const imageUrl = image?.fields.file.url;
@@ -23,7 +25,7 @@ export function SingleProject({fields}: Props) {
                 <div className="flex sm:w-1/2">
                     <Image className="object-cover object-top rounded-t-xl sm:rounded-l-xl sm:rounded-tr-none"
                            src={`https:${imageUrl}`} alt={imageAlt} width={imageWidth} height={imageHeight}
-                           layout="intrinsic"/>
+                           layout="intrinsic" unoptimized loader={customLoader}/>
                 </div>
                 <div className="sm:w-1/2 p-4 sm:mt-1 mb-3 flex flex-col gap-3">
                     <a href={`#${slug}`} className="self-start">
