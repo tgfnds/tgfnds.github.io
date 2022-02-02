@@ -9,7 +9,6 @@
 }
 
 html, body {
-    background-image: url("/public/static/images/blob-scene-haikei.svg");
     font-family: "Rubik", sans-serif;
     scroll-behavior: smooth;
 }
