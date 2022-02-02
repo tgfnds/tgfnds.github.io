@@ -29,7 +29,7 @@ export default function SingleProject({fields}: Props) {
                     <a href={`#${slug}`} className="self-start">
                         <h1 className="italic font-bold text-2xl border-b-2 border-slate-500 mb-1">
                             <span className="text-slate-500 dark:text-slate-500">{`// `}</span>
-                            <span>{name}</span>
+                            <span className="font-medium">{name}</span>
                         </h1>
                     </a>
                     {tags && <ScrollableTagContainer>
