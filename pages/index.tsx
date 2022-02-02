@@ -1,6 +1,6 @@
 import type {NextPage} from 'next';
 import Head from 'next/head';
-import {Section} from "../components/ui/Section";
+import Section from "../components/ui/Section";
 import ProfessionalSkills from "../components/skills/ProfessionalSkills";
 import HobbySkills from "../components/skills/HobbySkills";
 import InterestedSkills from "../components/skills/InterestedSkills";

@@ -1,9 +1,10 @@
 import type {GetStaticProps} from "next";
-import {ProjectList} from "../components/projects/ProjectList";
+import ProjectList from "../components/projects/ProjectList";
 import Head from "next/head";
-import {createClient, Entry} from "contentful";
-import {IProjectFields} from "../schema/generated/contentful";
-import {QueryOptions} from "contentful-management";
+import {createClient} from "contentful";
+import type {Entry} from "contentful";
+import type {IProjectFields} from "../schema/generated/contentful";
+import type {QueryOptions} from "contentful-management";
 
 interface Props {
     projects: Entry<IProjectFields>[];

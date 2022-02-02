@@ -1,12 +1,12 @@
-import {SingleProject} from "./SingleProject";
-import {IProjectFields} from "../../schema/generated/contentful";
-import {Entry} from "contentful";
+import SingleProject from "./SingleProject";
+import type {IProjectFields} from "../../schema/generated/contentful";
+import type {Entry} from "contentful";
 
 type Props = {
     projects: Entry<IProjectFields>[];
 };
 
-export function ProjectList({projects}: Props) {
+export default function ProjectList({projects}: Props) {
     return (
         <div>
             {!projects && <div>No projects found.</div>}

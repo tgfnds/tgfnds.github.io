@@ -7,7 +7,7 @@ interface ScrollPosition {
 
 type CursorStyle = "cursor-default" | "cursor-grab" | "cursor-grabbing" | "cursor-pointer";
 
-export function ScrollableTagContainer({children}: PropsWithChildren<{}>) {
+export default function ScrollableTagContainer({children}: PropsWithChildren<{}>) {
     const containerRef = useRef<HTMLDivElement>(null);
     const positionRef = useRef<ScrollPosition>({left: 0, mouseX: 0});
     const movingRef = useRef<boolean>(false);
@@ -53,7 +53,7 @@ export function ScrollableTagContainer({children}: PropsWithChildren<{}>) {
     return <div ref={containerRef} onMouseDown={onMouseDown} onMouseMove={onMouseMove}
                 onMouseUp={() => movingRef.current = false}
                 onMouseLeave={() => movingRef.current = false}
-                className={`flex max-w-xs gap-2 overflow-x-auto scrollbar-hide select-none ${cursorStyle}`}>
+                className={`flex max-w-xs gap-2 mb-2 overflow-x-auto scrollbar-hide select-none ${cursorStyle}`}>
         {children}
     </div>
 }
