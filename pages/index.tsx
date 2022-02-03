@@ -22,7 +22,7 @@ const Home: NextPage = () => {
                 <title>Tiago&apos;s Home</title>
                 <meta name="description"
                       content="Personal website from Tiago Fernandes, a Software Engineer based in Portugal."/>
-                <link rel="icon" href="/favicon.ico"/>
+                <link rel="icon" href="/static/images/favicon.ico"/>
             </Head>
 
             <Section id="intro" title="Hello, I'm Tiago!">
