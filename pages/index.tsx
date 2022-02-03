@@ -25,8 +25,6 @@ const Home: NextPage = () => {
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
 
-
-
             <Section id="intro" title="Hello, I'm Tiago!">
                 {paragraphs.map((item, index) =>
                     <p key={index} className="first-of-type:mt-0 mt-5 leading-7">{item}</p>)}
