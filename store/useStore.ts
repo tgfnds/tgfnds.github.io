@@ -1,8 +1,5 @@
 import create from "zustand";
-import createThemeSlice, {ThemeState} from "./createThemeSlice";
 
-type AppState = ThemeState;
+type AppState = {};
 
-export const useStore = create<AppState>((set) => ({
-    ...createThemeSlice(set),
-}));
+export const useStore = create<AppState>((set) => ({}));
