@@ -1,5 +1,6 @@
 import NavLink from "./NavLink";
 import Switch from "./Switch";
+import Contacts from "../contacts/Contacts";
 
 export default function Navbar() {
     return (
@@ -10,6 +11,9 @@ export default function Navbar() {
                 <NavLink href="/" title="Home"/>
                 <NavLink href="/projects" title="Projects"/>
                 <Switch/>
+            </div>
+            <div className={"mt-2"}>
+                <Contacts/>
             </div>
         </nav>
     );
