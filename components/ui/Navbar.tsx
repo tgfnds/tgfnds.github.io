@@ -12,7 +12,7 @@ export default function Navbar() {
                 <NavLink href="/projects" title="Projects"/>
                 <Switch/>
             </div>
-            <div className={"mt-2"}>
+            <div className={"mt-3"}>
                 <Contacts/>
             </div>
         </nav>
